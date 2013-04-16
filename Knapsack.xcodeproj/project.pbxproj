@@ -1,0 +1,210 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ABA6538816D4CE23001B9E40 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ABA6538716D4CE23001B9E40 /* main.cpp */; };
+		ABA6538A16D4CE23001B9E40 /* Knapsack.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = ABA6538916D4CE23001B9E40 /* Knapsack.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		ABA6538116D4CE23001B9E40 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				ABA6538A16D4CE23001B9E40 /* Knapsack.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		ABA6538316D4CE23001B9E40 /* Knapsack */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Knapsack; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABA6538716D4CE23001B9E40 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		ABA6538916D4CE23001B9E40 /* Knapsack.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Knapsack.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ABA6538016D4CE23001B9E40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ABA6537816D4CE23001B9E40 = {
+			isa = PBXGroup;
+			children = (
+				ABA6538616D4CE23001B9E40 /* Knapsack */,
+				ABA6538416D4CE23001B9E40 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ABA6538416D4CE23001B9E40 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ABA6538316D4CE23001B9E40 /* Knapsack */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ABA6538616D4CE23001B9E40 /* Knapsack */ = {
+			isa = PBXGroup;
+			children = (
+				ABA6538716D4CE23001B9E40 /* main.cpp */,
+				ABA6538916D4CE23001B9E40 /* Knapsack.1 */,
+			);
+			path = Knapsack;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ABA6538216D4CE23001B9E40 /* Knapsack */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABA6538D16D4CE23001B9E40 /* Build configuration list for PBXNativeTarget "Knapsack" */;
+			buildPhases = (
+				ABA6537F16D4CE23001B9E40 /* Sources */,
+				ABA6538016D4CE23001B9E40 /* Frameworks */,
+				ABA6538116D4CE23001B9E40 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Knapsack;
+			productName = Knapsack;
+			productReference = ABA6538316D4CE23001B9E40 /* Knapsack */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ABA6537A16D4CE23001B9E40 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = ABA6537D16D4CE23001B9E40 /* Build configuration list for PBXProject "Knapsack" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = ABA6537816D4CE23001B9E40;
+			productRefGroup = ABA6538416D4CE23001B9E40 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ABA6538216D4CE23001B9E40 /* Knapsack */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ABA6537F16D4CE23001B9E40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABA6538816D4CE23001B9E40 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		ABA6538B16D4CE23001B9E40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		ABA6538C16D4CE23001B9E40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		ABA6538E16D4CE23001B9E40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ABA6538F16D4CE23001B9E40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ABA6537D16D4CE23001B9E40 /* Build configuration list for PBXProject "Knapsack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABA6538B16D4CE23001B9E40 /* Debug */,
+				ABA6538C16D4CE23001B9E40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABA6538D16D4CE23001B9E40 /* Build configuration list for PBXNativeTarget "Knapsack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABA6538E16D4CE23001B9E40 /* Debug */,
+				ABA6538F16D4CE23001B9E40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ABA6537A16D4CE23001B9E40 /* Project object */;
+}
